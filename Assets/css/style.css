@@ -375,38 +375,7 @@ section{
         margin-bottom: 15px;
       }    
 
-      .scroll{
-          visibility: hidden;
-      }
-
-      .Big{
-          line-height: 50px;
-      }
-      #nav_logo{
-        padding-left: 10px;
-        padding-bottom:  12px;
-    }
-
-    .logo img{
-        padding-left: 9px;
-        padding-bottom: 10px;
-    }
-            }
-
-@media only screen and ( min-device-width:320px) and (max-device-height: 568px){
-    .video_S .container {
-        position: relative;
-        z-index: 2;
-        text-align: center;
-        width:80%;
-        height:60%;
-        color: #fff;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        padding: 15px;
-        margin-bottom: 15px;
-      }    
-
-      .Big{
+           .Big{
         font-size:25px ;
         line-height: 25px;
     }
@@ -426,34 +395,38 @@ section{
     .text{
         font-size:10px;
     }
+     .scroll{
+          visibility: hidden;
+      }
+            }
+@media screen and (device-aspect-ratio: 40/71) {.video_S .container {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        width:70%;
+        height:60%;
+        color: #fff;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 15px;
+        margin-bottom: 15px;
+      }    
 
-    .scroll{
-        left: 49.5%;
-        transform: translateY(0%) rotate(45deg);
-            
-            opacity: 0;
-          }
-          .video_S {
-            position: relative;
-            background-color: black;
-            height: 75.5vh;
-            min-height: 25rem;
-            width: 100%;
-            overflow: hidden;
-          }
-          .navbar{
-            background:rgb(0, 0, 0);
-            height: 85px;
-            display: flex;
-            justify-content: center;
-            font-size: 1.2rem;
-            align-items: center;
-            position: sticky;
-            top: 0;
-            z-index: 999;
-          }
-}
+      .scroll{
+          visibility: hidden;
+      }
 
+      .Big{
+          line-height: 50px;
+      }
+      #nav_logo{
+        padding-left: 10px;
+        padding-bottom:  12px;
+    }
+
+    .logo img{
+        padding-left: 9px;
+        padding-bottom: 10px;
+    }}
 
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
     .video_S .container {
