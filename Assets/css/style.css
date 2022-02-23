@@ -367,7 +367,7 @@ section{
         position: relative;
         z-index: 2;
         text-align: center;
-        width:70%;
+        width:80%;
         height:60%;
         color: #fff;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -392,43 +392,6 @@ section{
         padding-bottom: 10px;
     }
             }
-@media screen and (device-aspect-ratio: 40/71) {
-    .video_S .container {
-        position: relative;
-        z-index: 2;
-        text-align: center;
-        width:70%;
-        height:60%;
-        color: #fff;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        padding: 13px;
-        margin-bottom: 15px;
-      }    
- .Big{
-        font-size:10px ;
-        line-height: 25px;
-    }
-
-    .des{
-        font-size: 10px;
-    }
-
-    .dess{
-        font-size: 10px;
-    }
-
-    .btns{
-        font-size:10px; 
-    }
-
-    .text{
-        font-size:10px;
-    }
-     .scroll{
-          visibility: hidden;
-      }
-}
-
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
     .video_S .container {
         position: relative;
