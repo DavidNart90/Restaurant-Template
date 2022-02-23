@@ -392,6 +392,68 @@ section{
         padding-bottom: 10px;
     }
             }
+
+@media only screen and ( min-device-width:320px) and (max-device-height: 568px){
+    .video_S .container {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        width:80%;
+        height:60%;
+        color: #fff;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 15px;
+        margin-bottom: 15px;
+      }    
+
+      .Big{
+        font-size:25px ;
+        line-height: 25px;
+    }
+
+    .des{
+        font-size: 10px;
+    }
+
+    .dess{
+        font-size: 10px;
+    }
+
+    .btns{
+        font-size:10px; 
+    }
+
+    .text{
+        font-size:10px;
+    }
+
+    .scroll{
+        left: 49.5%;
+        transform: translateY(0%) rotate(45deg);
+            
+            opacity: 0;
+          }
+          .video_S {
+            position: relative;
+            background-color: black;
+            height: 75.5vh;
+            min-height: 25rem;
+            width: 100%;
+            overflow: hidden;
+          }
+          .navbar{
+            background:rgb(0, 0, 0);
+            height: 85px;
+            display: flex;
+            justify-content: center;
+            font-size: 1.2rem;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+          }
+}
+
  @media only screen and ( min-device-width:768px) and (max-device-width: 912px){
                 #nav_logo{
                     padding-left: 10px;
