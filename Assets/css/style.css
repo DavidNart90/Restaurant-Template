@@ -397,11 +397,11 @@ section{
         position: relative;
         z-index: 2;
         text-align: center;
-        width:80%;
+        width:60%;
         height:60%;
         color: #fff;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        padding: 15px;
+        padding: 12px;
         margin-bottom: 15px;
       }    
  .Big{
