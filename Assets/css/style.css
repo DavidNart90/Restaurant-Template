@@ -375,29 +375,22 @@ section{
         margin-bottom: 15px;
       }    
 
-           .Big{
-        font-size:25px ;
-        line-height: 25px;
-    }
-
-    .des{
-        font-size: 10px;
-    }
-
-    .dess{
-        font-size: 10px;
-    }
-
-    .btns{
-        font-size:10px; 
-    }
-
-    .text{
-        font-size:10px;
-    }
-     .scroll{
+       .scroll{
           visibility: hidden;
       }
+
+      .Big{
+          line-height: 50px;
+      }
+      #nav_logo{
+        padding-left: 10px;
+        padding-bottom:  12px;
+    }
+
+    .logo img{
+        padding-left: 9px;
+        padding-bottom: 10px;
+    }
             }
 @media screen and (device-aspect-ratio: 40/71) {
     .video_S .container {
