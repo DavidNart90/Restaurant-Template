@@ -397,8 +397,8 @@ section{
         position: relative;
         z-index: 2;
         text-align: center;
-        width:60%;
-        height:60%;
+        width:100%;
+        height:80%;
         color: #fff;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         padding: 12px;
