@@ -399,7 +399,8 @@ section{
           visibility: hidden;
       }
             }
-@media screen and (device-aspect-ratio: 40/71) {.video_S .container {
+@media screen and (device-aspect-ratio: 40/71) {
+    .video_S .container {
         position: relative;
         z-index: 2;
         text-align: center;
@@ -407,7 +408,7 @@ section{
         height:60%;
         color: #fff;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        padding: 15px;
+        padding: 10px;
         margin-bottom: 15px;
       }    
 
