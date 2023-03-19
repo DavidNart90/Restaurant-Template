@@ -179,8 +179,9 @@ section{
         z-index: 99;
         height: 60vh;
         font-size: 2.1rem;
-        margin-top: 0px; 
-        overflow-y:scroll;
+        margin-top: 0px;
+        scroll-behavior: smooth;
+        overflow-y: scroll;
     }
     #nav_logo{
         padding-left: 25px;
@@ -306,6 +307,7 @@ section{
     outline: none;
     border-radius: 50px;
     cursor: pointer;
+    margin-left: 0px ;
 }
  .btns:hover {
     color: #ffffff;
@@ -313,10 +315,13 @@ section{
 }
 
 .scroll{
+    justify-content: center ;
+    align-items: center;
     left: 50%;
     transform: translateY(0%) rotate(45deg);
     
                   opacity: 0;
+
   }
   @keyframes scrolldown {
               0%{
@@ -367,15 +372,15 @@ section{
         position: relative;
         z-index: 2;
         text-align: center;
-        width:80%;
+        width:70%;
         height:60%;
         color: #fff;
         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        padding: 14.47px;
+        padding: 15px;
         margin-bottom: 15px;
       }    
 
-       .scroll{
+      .scroll{
           visibility: hidden;
       }
 
@@ -392,45 +397,6 @@ section{
         padding-bottom: 10px;
     }
             }
-@media only screen and (max-height: 575.98px) and (orientation: landscape) {
-    .video_S .container {
-        position: relative;
-        z-index: 2;
-        text-align: center;
-        width:80%;
-        height:60%;
-        color: #fff;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        padding: 15px;
-        margin-bottom: 15px;
-      }    
-
-      .Big{
-        font-size:25px ;
-        line-height: 25px;
-    }
-
-    .des{
-        font-size: 10px;
-    }
-
-    .dess{
-        font-size: 10px;
-    }
-
-    .btns{
-        font-size:10px; 
-    }
-
-    .text{
-        font-size:10px;
-    }
-     .scroll{
-          visibility: hidden;
-      }
-
-}
-
  @media only screen and ( min-device-width:768px) and (max-device-width: 912px){
                 #nav_logo{
                     padding-left: 10px;
@@ -512,6 +478,67 @@ section{
 
     .text{
         font-size:20px;
+    }
+
+    .scroll{
+        left: 49.5%;
+        transform: translateY(0%) rotate(45deg);
+            
+            opacity: 0;
+          }
+          .video_S {
+            position: relative;
+            background-color: black;
+            height: 75.5vh;
+            min-height: 25rem;
+            width: 100%;
+            overflow: hidden;
+          }
+          .navbar{
+            background:rgb(0, 0, 0);
+            height: 85px;
+            display: flex;
+            justify-content: center;
+            font-size: 1.2rem;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 999;
+          }
+}
+
+@media only screen and ( min-device-width:320px) and (max-device-width: 568px){
+    .video_S .container {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        width:80%;
+        height:60%;
+        color: #fff;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 15px;
+        margin-bottom: 15px;
+      }    
+
+      .Big{
+        font-size:25px ;
+        line-height: 25px;
+    }
+
+    .des{
+        font-size: 10px;
+    }
+
+    .dess{
+        font-size: 10px;
+    }
+
+    .btns{
+        font-size:10px; 
+    }
+
+    .text{
+        font-size:10px;
     }
 
     .scroll{
@@ -647,7 +674,7 @@ section{
 
 .container1{
     max-width: 1170px;
-    margin:50px;
+    margin:50px 50px 50px 60px;
     width: 100vw;
 }
 .row1{
