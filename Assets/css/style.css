@@ -339,6 +339,10 @@ section{
           }  
 /*Media Queries*/   
 @media(max-width:680px){
+    body{
+        overflow-x: hidden;
+    }
+    
     .video_S .container {
         position: relative;
         z-index: 2;
@@ -368,6 +372,10 @@ section{
         }
             }         
 @media(max-width:440px){
+    body{
+    overflow-x: hidden
+    }
+    
     .video_S .container {
         position: relative;
         z-index: 2;
@@ -398,6 +406,10 @@ section{
     }
             }
  @media only screen and ( min-device-width:768px) and (max-device-width: 912px){
+     
+     body{
+     overflow-x: hidden;
+     }
                 #nav_logo{
                     padding-left: 10px;
                     padding-bottom:  12px;
@@ -508,6 +520,10 @@ section{
 }
 
 @media only screen and ( min-device-width:320px) and (max-device-width: 568px){
+    
+    body{overflow-x: hidden;}
+    
+    
     .video_S .container {
         position: relative;
         z-index: 2;
@@ -568,6 +584,10 @@ section{
           }
 }
 @media only screen and ( min-device-width:1024px) and (max-device-width: 1024px){
+    body{
+        overflow-x: hidden;
+    }
+    
     .Big{
         line-height: 40px;
         font-size:48px;
